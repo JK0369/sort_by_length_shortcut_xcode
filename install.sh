@@ -3,7 +3,7 @@
 SERVICE_DIR=~/Library/Services/
 
 # shortcut: https://ios-development.tistory.com/1321
-short_cut = "^\$@1" # ctrl + shift + cmd + 1
+short_cut="^\$@1" # ctrl + shift + cmd + 1
 
 # copying automator workflow
 echo "copying Service into ~/Library/Services/ ..."
