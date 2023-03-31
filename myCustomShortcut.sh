@@ -13,7 +13,7 @@ for (( i=0; i<${arr_length}-1; i++ ))
 do
     for (( j=$i+1; j<${arr_length}; j++ ))
     do
-        if [[ "${#arr[$i]}" < "${#arr[$j]}" ]]; then
+        if [[ "${#arr[$i]}" > "${#arr[$j]}" ]]; then
             temp=${arr[$i]}
             arr[$i]=${arr[$j]}
             arr[$j]=$temp
