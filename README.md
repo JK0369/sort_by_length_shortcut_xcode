@@ -10,7 +10,8 @@
 
 2. open `./install.sh`
 
-3. modify keymap in `./install.sh`, variable of `short_cut`
+3. modify keymap in `./install.sh`, variable of `short_cut`  
+  
 example) short_cut="^\$@2" # ctrl + shift + cmd + 2
 
 4. run `./install.sh`
